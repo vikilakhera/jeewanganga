@@ -1,0 +1,36 @@
+.jucWrapper {
+  width: 40%;
+  min-width: 300px;
+  max-width: 380px;
+  height: 400px;
+  border-radius: 8px;
+  background: var(--lightBackground);
+  padding: 16px;
+  box-shadow: 1px 1px 13px 2px var(--black30);
+  transition: 0.3s ease-in-out;
+}
+
+.jucWrapper:hover {
+  box-shadow: 1px 1px 13px 2px var(--black70)
+}
+
+.jucContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jucJoinButton {
+  background: none;
+  color: var(--black);
+  border: 1px solid var(--black);
+  padding: 6px 16px;
+  transition: 0.2s ease-in-out;
+}
+
+.jucJoinButton:hover {
+  background: var(--black);
+  color: var(--activeYellow);
+}

@@ -1,0 +1,13 @@
+.jsnWrapper {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.jsnContentWrapper {
+  width: 80%;
+  min-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

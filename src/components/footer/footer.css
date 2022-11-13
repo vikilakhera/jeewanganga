@@ -1,0 +1,87 @@
+.footerContainer{
+  padding: 16px 15%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 670px){
+  .footer{
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 1rem;
+  }
+}
+
+.footerLogo{
+  width: 9rem;
+}
+
+.footerLogo > img{
+  width: 100%;
+}
+
+.contact{
+  text-align: center;
+  font-weight: 500;
+}
+
+.contactText{
+  margin-bottom: 7px;
+}
+
+.contact > a{
+  text-decoration: none;
+  color: var(--email);
+}
+
+.follow{
+  text-align: center;
+  font-weight: 500;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.fa-envelope{
+  margin-right: 5px;
+}
+
+.fa-twitter{
+  color: var(--twitter);
+  padding: 10px;
+}
+.fa-twitter:hover{
+  background: var(--twitter);
+}
+
+.fa-linkedin{
+  color: var(--linkedin);
+  padding: 10px 11px;
+}
+.fa-linkedin:hover{
+  background: var(--linkedin);
+}
+
+.fa-instagram{
+  color: var(--instagram);
+  padding: 10px 11px;
+}
+.fa-instagram:hover{
+  background-color: var(--instagram);
+}
+
+.fab:hover{
+  color: var(--white);
+  border-radius: 100px;
+  transition: all .3s ease-in-out;
+}
+.copyright{
+  text-align: center;
+  color: var(--subText);
+}

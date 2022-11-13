@@ -1,0 +1,44 @@
+.ouwWrapper {
+  height: 70vh;
+  background: var(--lightBackground);
+}
+
+.ouwComponents {
+  width: 70%;
+  margin: auto;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.ouwContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ouwLeftSide {
+  flex: 0 0 40%;
+}
+
+.ouwHeading {
+  font-size: 56px;
+  margin-bottom: 64px;
+}
+
+.ouwRightSide {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.ouwRightSideContent {
+  min-width: 400px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--subText);
+  text-align: left;
+}

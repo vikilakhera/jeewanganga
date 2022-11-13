@@ -1,0 +1,53 @@
+.intWrapper {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.intContentWrapper {
+  width: 80%;
+  min-width: 800px;
+  margin: auto;
+}
+
+.intHeadingWrapper {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.intHorizontalLine {
+  width: 100%;
+  height: 2px;
+  background: var(--black);
+}
+
+.intHeadingParent {
+  position: absolute;
+  top: -25px;
+  height: 50px;
+  width: 100%;
+}
+
+.intHeading {
+  background: var(--white);
+  width: fit-content;
+  margin: auto;
+}
+
+.intCardsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.intCard {
+  margin-left: 32px;
+  width: 30%;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.intCard:first-child {
+  margin-left: 0;
+}

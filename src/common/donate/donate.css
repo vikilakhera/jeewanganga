@@ -1,0 +1,52 @@
+.dntWrapper {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--lightBackground);
+}
+
+.dntContent {
+  width: 70%;
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dntContentLeft {
+  flex: 0 0 40%;
+}
+
+.dntLeftHeading {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.dntLeftText {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: var(--subText);
+}
+
+.dntDonateButton {
+  background: none;
+  color: var(--black);
+  border: 1px solid var(--black);
+  padding: 6px 16px;
+  transition: 0.2s ease-in-out;
+}
+
+.dntDonateButton:hover {
+  background: var(--black);
+  color: var(--activeYellow);
+}
+
+.dntContentRight {
+  flex: 0 0 60%;
+}
+
+.dntRightImage {
+  width: 90%;
+  min-width: 450px;
+}

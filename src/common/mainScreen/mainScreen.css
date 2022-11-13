@@ -1,0 +1,27 @@
+.mnsWrapper {
+  position: relative;
+}
+
+.mnsImage {
+  height: 70vh;
+  min-height: 600px;
+  width: 100%;
+  filter: brightness(0.6);
+}
+
+.mnsContent {
+  position: absolute;
+  top: 0;
+  height: 70vh;
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.mnsText {
+  color: var(--activeYellow);
+}

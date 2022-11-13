@@ -1,0 +1,43 @@
+.joinWrapper {
+  height: 60vh;
+  min-height: 580px;
+  position: relative;
+}
+
+.joinContent {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.joinHeading {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.joinText {
+  font-size: 24px;
+  color: var(--activeYellow);
+  margin-bottom: 16px;
+}
+
+.joinButton {
+  background: none;
+  color: var(--white);
+  border: 1px solid var(--activeYellow);
+  padding: 6px 16px;
+  transition: 0.2s ease-in-out;
+}
+
+.joinButton:hover {
+  background: var(--activeYellow);
+  color: var(--black);
+}

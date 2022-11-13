@@ -1,0 +1,70 @@
+.wawWrapper {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wawComponents {
+  width: 70%;
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wawLeftSide {
+  flex: 0 0 40%;
+  text-align: left;
+}
+
+.wawLeftSideHeading {
+  font-size: 56px;
+}
+
+.wawRightSide {
+  flex: 0 0 60%;
+}
+
+.wawRightSideContent {
+  min-width: 400px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--subText);
+  text-align: left;
+}
+
+.wawSeeMoreButtonWrapper {
+  text-align: left;
+  margin-top: 16px;
+}
+
+.wawSeeMoreButton {
+  color: var(--twitter);
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.wawSlideRight{
+  position: relative;
+}
+
+.wawSlideRight:after{
+  content: '';
+  position: absolute;
+  width: 0; 
+  height: 2px;
+  display: block;
+  margin-top: 2px;
+  right: 0;
+  background: var(--twitter);
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.wawSlideRight:hover:after{
+  width: 100%;
+  left: 0;
+  background: var(--twitter);
+}

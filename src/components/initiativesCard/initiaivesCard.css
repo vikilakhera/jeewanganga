@@ -1,0 +1,69 @@
+.incWrapper {
+  position: relative;
+  width: 100%;
+  min-width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, 
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.incImageWrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.incImage {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.4);
+  border-radius: 8px;
+}
+
+.incContent {
+  position: absolute;
+  top: 0;
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+}
+
+.incContent:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.incHeading {
+  color: var(--yellow);
+  margin-bottom: 24px;
+  font-size: 28px;
+  border-bottom: 1px solid var(--yellow);
+}
+
+.incText {
+  color: var(--white);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.incDonateButton {
+  background: none;
+  border: 1px solid var(--activeYellow);
+  color: var(--white);
+  padding: 6px 16px;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.incDonateButton:hover {
+  background-color: var(--activeYellow);
+  color: var(--black);
+}
